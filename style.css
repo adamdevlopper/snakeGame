@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:wght@400;500;600;700display=swap');
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #E3F2FD;
+}
+
+.game-title {
+    font-size: 2.5rem;
+    color: #293447;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.wrapper{
+    width: 65vmin;
+    height: 70vmin;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #293447;
+}
+
+.game-details{
+    color: #BBC6DC;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-board{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    background-color: #212837;
+}
+
+.play-board .food{
+    background-color: #FF003D;
+}
+
+
+.play-board .head {
+    background-color: #60CBFF; 
+  }
+  
+  .play-board .body {
+    background-color: #1994a7; 
+  }
