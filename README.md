@@ -12,7 +12,7 @@ A simple **Snake Game** built using **HTML**, **CSS**, and **JavaScript**. The g
 - [Credits](#credits)
 
 ## Overview
-![Snake Game](./snakePicture.png) <!-- Replace with a screenshot of your game -->
+![Snake Game](./snagePicture.png) <!-- Replace with a screenshot of your game -->
 
 This is a simple snake game where you control the snake with the arrow keys. Every time the snake eats food, it grows and your score increases. If the snake hits a wall or bites itself, the game is over.
 
