@@ -47,10 +47,10 @@ This is a simple snake game where you control the snake with the arrow keys. Eve
 
 3. Start playing!
 
-##contributions
+## Contributions
 
 Contributions are welcome! If you have ideas for improvements or find bugs, feel free to submit an issue or a pull request.
 
-##credits
+## Credits
 
 This game was developed by Jaghou Adam.
